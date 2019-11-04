@@ -1,0 +1,163 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'Raleway', sans-serif;
+    font-size: 12px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    font-size: 20px;
+    padding: 0 0 10px 0;
+    color: #545454;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.mainer {
+    min-width: 600px;
+    margin: 0 auto;
+    /* padding: 50px 15px; */
+}
+
+.btn {
+    text-transform: uppercase;
+    border:none;
+    box-sizing: border-box;
+    outline: none;
+    padding: 20px 25px;
+}
+
+.top {
+    /* margin: 0 auto; */
+    height: 100%;
+    background: url('../img/top.png');
+    padding: 50px 80px; 
+}
+
+.head {
+    display: inline;    
+    /* margin: 0 0 260px 0; */
+}
+
+.head__logo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    display: inline;
+    cursor: pointer;
+}
+
+.head__nav {
+    list-style-type: none;
+    float: right;
+}
+
+.head__item {
+    display: inline-block;
+    margin: 0 19px;
+    
+    text-transform: uppercase;
+}
+
+.head__link {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 9px 3px;
+}
+
+.head__link:hover {
+    border-top: 3px solid #ff6033;
+}
+
+.dec {
+    margin: 260px 0 0 0;
+}
+
+.dec__head {
+    font-size: 60px;
+    font-weight: 900;
+    color: black;
+    margin: 0 0 25px 0;
+}
+
+.dec__info {
+    width: 380px;
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.dec__btn {
+    background-color: #ff6033;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    margin: 30px 0 300px 0;
+    cursor: pointer;
+}
+
+.dec__btn:hover {
+    background-color: #802c15;
+}
+
+.bottom {
+    background-color: #00b0b0;
+    padding: 75px 20px;
+}
+
+.about {
+    display: flex;
+}
+
+.about__head {
+    color: white;
+    font-size: 90px;
+    font-weight: bold;
+    margin: 105px 0 25px 0;
+}
+
+.about__dec {
+    font-weight: 300;
+    font-size: 17px;
+    color: white;
+    line-height: 27px;
+}
